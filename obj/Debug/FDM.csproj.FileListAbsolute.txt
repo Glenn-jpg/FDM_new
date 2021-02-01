@@ -9,3 +9,10 @@ C:\Users\PewPe\source\repos\FDM\obj\Debug\FDM.dll
 C:\Users\PewPe\source\repos\FDM\obj\Debug\FDM.pdb
 C:\Program Files\Rhino 7\Plug-ins\FDM.dll
 C:\Program Files\Rhino 7\Plug-ins\FDM.pdb
+C:\Users\PewPe\source\repos\FDM_test2\obj\Debug\FDM.csprojAssemblyReference.cache
+C:\Users\PewPe\source\repos\FDM_test2\obj\Debug\FDM.csproj.CoreCompileInputs.cache
+C:\Users\PewPe\source\repos\FDM_test2\obj\Debug\FDM.csproj.CopyComplete
+C:\Users\PewPe\source\repos\FDM_test2\obj\Debug\FDM.dll
+C:\Users\PewPe\source\repos\FDM_test2\obj\Debug\FDM.pdb
+C:\Program Files\Rhino 7\Plug-ins\MLModel.zip
+C:\Program Files\Rhino 7\Plug-ins\FDM.dll.config

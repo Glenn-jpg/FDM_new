@@ -1,0 +1,10 @@
+C:\Users\PewPe\source\repos\FDMML.Model\bin\Debug\netstandard2.0\MLModel.zip
+C:\Users\PewPe\source\repos\FDMML.Model\bin\Debug\netstandard2.0\FDMML.Model.deps.json
+C:\Users\PewPe\source\repos\FDMML.Model\bin\Debug\netstandard2.0\FDMML.Model.dll
+C:\Users\PewPe\source\repos\FDMML.Model\bin\Debug\netstandard2.0\FDMML.Model.pdb
+C:\Users\PewPe\source\repos\FDMML.Model\obj\Debug\netstandard2.0\FDMML.Model.csprojAssemblyReference.cache
+C:\Users\PewPe\source\repos\FDMML.Model\obj\Debug\netstandard2.0\FDMML.Model.csproj.CoreCompileInputs.cache
+C:\Users\PewPe\source\repos\FDMML.Model\obj\Debug\netstandard2.0\FDMML.Model.AssemblyInfoInputs.cache
+C:\Users\PewPe\source\repos\FDMML.Model\obj\Debug\netstandard2.0\FDMML.Model.AssemblyInfo.cs
+C:\Users\PewPe\source\repos\FDMML.Model\obj\Debug\netstandard2.0\FDMML.Model.dll
+C:\Users\PewPe\source\repos\FDMML.Model\obj\Debug\netstandard2.0\FDMML.Model.pdb

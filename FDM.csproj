@@ -126,18 +126,12 @@
   <ItemGroup>
     <Compile Include="ArchDisplacementComponent.cs" />
     <Compile Include="Classes\branch_force_pair.cs" />
-    <Compile Include="ConsumeModel.cs" />
     <Compile Include="FDMComponent.cs" />
     <Compile Include="FDMInfo.cs" />
-    <Compile Include="ModelInput.cs" />
-    <Compile Include="ModelOutput.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="MLModel.zip">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

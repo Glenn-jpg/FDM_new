@@ -126,19 +126,19 @@
   <ItemGroup>
     <Compile Include="ArchDisplacementComponent.cs" />
     <Compile Include="Classes\branch_force_pair.cs" />
+    <Compile Include="ConsumeModel.cs" />
     <Compile Include="FDMComponent.cs" />
     <Compile Include="FDMInfo.cs" />
+    <Compile Include="ModelInput.cs" />
+    <Compile Include="ModelOutput.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="MLModel.zip">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\FDMML.Model\FDMML.Model.csproj">
-      <Project>{A348C020-0A71-4650-B026-A6B6F824DC91}</Project>
-      <Name>FDMML.Model</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

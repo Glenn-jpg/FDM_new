@@ -3,8 +3,6 @@ using System.Collections.Generic;
 
 using Grasshopper.Kernel;
 using Rhino.Geometry;
-
-
 namespace FDM
 {
     public class ArchDisplacementComponent : GH_Component
@@ -13,8 +11,8 @@ namespace FDM
         /// Initializes a new instance of the ArchDisplacementComponent class.
         /// </summary>
         public ArchDisplacementComponent()
-          : base("ArchDisplacementComponent", "Nickname",
-              "Description",
+          : base("ArchDisplacementComponent2", "Arch D",
+              "Finds displacement of a Nurbs Curve using ML",
               "Form Finding", "Machine Learning")
         {
         }
@@ -26,6 +24,7 @@ namespace FDM
         {
             pManager.AddNumberParameter("XCoord", "X", "X-coord of control point", GH_ParamAccess.item); //0
             pManager.AddNumberParameter("YCoord", "Y", "Y-coord of control point", GH_ParamAccess.item); //1
+            pManager.AddNumberParameter("RightCtrlPt", "Xright", "X-coord of right control point", GH_ParamAccess.item); //2
         }
 
         /// <summary>
@@ -44,17 +43,22 @@ namespace FDM
         {
             double xCoord = 0;
             double yCoord = 0;
+            double RightxCoord = 0;
 
             DA.GetData(0, ref xCoord);
             DA.GetData(1, ref yCoord);
+            DA.GetData(2, ref RightxCoord);
 
             float fxCoord = (float)xCoord;
             float fyCoord = (float)yCoord;
+            float fRightxCoord = (float)RightxCoord;
 
             ModelInput sampleData = new ModelInput()
             {
-                X_m_ = fxCoord,
-                Y_m_ = fyCoord,
+                XCtrlPt_m_ = fxCoord,
+                YCtrlPt_m_ = fyCoord,
+                RightCtrlPt_m_ = fRightxCoord,
+              
             };
 
             var predictionResult = ConsumeModel.Predict(sampleData);
